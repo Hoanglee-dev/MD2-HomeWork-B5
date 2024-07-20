@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      margin-top: 10px;
+      display: flex;
+      /* flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 10px; */
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .ShowAll {
+      width: calc((100% / 3) - 7px);
+      height: 100px;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 7px;
+    }
+  </style>
+  <body>
+    <div class="ShowAll">
+      <h4>Bài 1: In ra 100 chữ 'Hello'</h4>
+      <button onclick="thisIsFunctionB1()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 2: Nhập vào N từ prompt. In ra N lần chữ 'Hello'</h4>
+      <button onclick="thisIsFunctionB2()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 3: In ra cac số từ 1 đến 1000;</h4>
+      <button onclick="thisIsFunctionB3()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 4: In ra cac số từ a đến b;</h4>
+      <button onclick="thisIsFunctionB4()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 5: In ra cac số từ a đến b, mỗi số trong 1 thẻ h1</h4>
+      <button onclick="thisIsFunctionB5()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 6: In ra các số chẵn tu a đến b;</h4>
+      <button onclick="thisIsFunctionB6()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 7: In ra các số từ a đến b số chẵn trong h2, so le trong h1;</h4>
+      <button onclick="thisIsFunctionB7()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 8: Tính tích các số từ a - b.</h4>
+      <button onclick="thisIsFunctionB8()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 9: Tính Tổng các số chia 5 dư 2 từ a đến b.</h4>
+      <button onclick="thisIsFunctionB9()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 10: Đếm các số chia 5 dư 2 từ a đến b.</h4>
+      <button onclick="thisIsFunctionB10()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 11: In ra màn hình 0, 5 ,10,15, 20, ... 50.</h4>
+      <button onclick="thisIsFunctionB11()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 12: In ra màn hình 10, 9, 8, 7, 6, ... 0.</h4>
+      <button onclick="thisIsFunctionB12()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 13: In ra màn hình 50, 45, 40, .. 0</h4>
+      <button onclick="thisIsFunctionB13()">Click to display</button>
+    </div>
+
+    <div class="ShowAll">
+      <h4>Bài 14: In ra bảng cửu chương 5.</h4>
+      <button onclick="thisIsFunctionB14()">Click to display</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
